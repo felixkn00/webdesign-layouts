@@ -1,0 +1,191 @@
+body {
+	background-image: url('../images/background.jpg');
+
+}
+
+#content h2{
+	margin-top: 7%;
+
+	text-align: center;
+
+
+}
+
+#newCar{
+	float: left;
+
+	margin-top: 20%;
+	max-width: 60%;
+
+}
+
+
+
+#newCar a{
+	text-decoration: none;
+	color: black;
+
+}
+
+
+#newCar img{
+	max-width: 100%;
+
+
+}
+
+#newCar img:hover{
+	opacity: 0.9;
+	box-shadow: 5px 5px 5px silver;
+
+}
+
+
+#newCar p{
+	text-align: center;
+
+}
+
+#newCar p:hover{
+	text-decoration: underline;
+
+}
+
+
+#moreCars{
+	margin-top: 35%;
+	float: right;
+
+	width: 38%;
+
+	font-size: 150%;
+	text-decoration: underline;
+	text-align: center;
+
+}
+
+
+#moreCars a{
+	text-decoration: none;
+	color: black;
+
+}
+
+
+#imgArea{
+	padding-top: 15%;
+
+	float: left;
+
+
+
+
+}
+
+
+#imgArea h1{
+	text-align: center;
+
+}
+
+
+#imgAreaImage0{
+	width: 100%;
+
+
+}
+
+
+#imgAreaImage1{
+	width: 57.8%;
+	padding: 0.2%;
+	box-shadow: 1;
+
+}
+
+
+#imgAreaImage2{
+	float: right;
+	width: 40.8%;
+	padding: 0.2%;
+}
+
+
+#imgAreaImage3{
+	float: left;
+	width: 100%;
+	padding: 0.2%;
+
+}
+
+
+#largeText{
+	float: left;
+	margin-top: 10%;
+
+}
+
+
+#contactLink
+{
+	float: left;
+	margin-top: 10%;
+
+	padding: 1%;
+
+	border: solid 2px black;
+	text-align: center;
+	color: black;
+	text-decoration: none;
+
+}
+
+#contactLink:hover, #contactLink a:hover{
+background: black;
+color: white;
+
+}
+
+
+
+
+
+@media (max-width: 600px)
+{
+	#newCar{
+		max-width: 100%;
+
+	}
+
+	#moreCars{
+		margin-top: 10%;
+		width: 100%;
+		float: left;
+
+	}
+
+	#imgArea img{
+		padding-top: 2.5%
+
+	}
+
+	#imgAreaImage1{
+		width: 100%;
+
+	}
+
+
+	#imgAreaImage2{
+		float: left;
+		width: 100%;
+
+	}
+
+	#contactLink{
+		padding: 4.5%;
+		width: 80%;
+		margin-left: 5%;
+
+	}
+
+}

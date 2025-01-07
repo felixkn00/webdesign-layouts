@@ -1,0 +1,101 @@
+body {
+  background-image: url('../images/background.jpg');
+}
+
+#content h1{
+  margin-top: 10%;
+  text-align: center;
+
+}
+
+
+#map{
+  max-width: 900px;
+  width: 100%;
+
+}
+
+#contactInformations a{
+  color: black;
+  text-decoration: none;
+
+}
+
+
+#contactInformations p{
+  padding-top: 5%;
+
+}
+
+
+#contactInformations h2{
+  padding-top: 10%;
+
+}
+
+
+#contactInformations form{
+  margin-top: 15%;
+  margin-left: 17%;
+  width: 50%;
+
+}
+
+
+#contactInformations input{
+  background: #F0F0F0;
+  width: 70%;
+  border: none;
+  padding: 2.5%;
+  font-size: 120%;
+
+  font-family: Arial Black;
+  color: black;
+
+}
+
+
+
+#contactInformations textarea{
+  width: 100%;
+
+  padding: 2.5%;
+
+  font-family: Arial Black;
+  color: black;
+  background: #EBEBEB;
+  border: none;
+
+
+}
+
+
+#FormSubmit:hover{
+  background: #E3E3E3;
+
+}
+
+
+@media (max-width: 900px){
+
+  #contactInformations form{
+    width: 94%;
+    margin-left: 0;
+
+
+  }
+
+
+  #contactInformations input{
+    width: 85%;
+
+  }
+
+
+  #FormSubmit{
+    width: 130%;
+
+  }
+
+
+}

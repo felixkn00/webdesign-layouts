@@ -1,0 +1,74 @@
+body {
+  background-image: url('../images/background.jpg');
+}
+
+
+#title{
+  margin-top: 20%;
+  text-align: center;
+
+}
+
+
+.worker{
+  display: block;
+  float: left;
+  margin-top: 7%;
+  margin-left: 10%;
+
+  width: 80%;
+  min-height: 466px;
+
+  border-collapse:collapse;
+
+}
+
+
+.worker img{
+  float: left;
+  max-width: 40%;
+
+}
+
+
+.worker div{
+  float: right;
+
+
+}
+
+
+.worker h4{
+  padding-top: 10%;
+}
+
+
+.worker p{
+  padding: 2%;
+  background: #F0F0F0;
+
+}
+
+
+.worker h4, p{
+  float: left;
+  clear: left;
+  display: block;
+
+}
+
+
+@media (max-width: 900px){
+  .worker img{
+    max-width: 100%;
+    padding-bottom: 10%;
+
+  }
+
+
+  .worker div{
+    float: left;
+
+  }
+
+}
