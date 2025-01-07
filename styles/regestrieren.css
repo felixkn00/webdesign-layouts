@@ -1,0 +1,332 @@
+h1 {
+    margin: 3%;
+    margin-top: 80px;
+    font-size: 300%;
+    color: #807A74;
+    
+}
+
+
+
+#contentContainer1 {
+    display: block;
+    min-height: 200px;
+    padding: 3.5%;
+
+}
+
+#contentContainer1 h2{
+    display: inline-block;
+    height: 200px;
+
+    font-weight: 500;
+    line-height: 150%;
+    font-size: 305%;
+    font-style: italic;
+    width: 40%;
+   
+    vertical-align:bottom;
+    color: #8F7F75;
+
+}
+
+
+#contentContainer1 img {
+    display: inline-block;
+    margin-left: 6%;
+    vertical-align: middle;
+    max-width: 50%;
+
+}
+
+
+
+
+
+
+
+.contactForm {
+    display: inline-block;
+    width: 38%;
+    vertical-align: top;
+}
+
+.contactForm h2 {
+    margin-left: 15%;
+}
+
+form{
+    margin-top: 3%;
+    width: 100%;
+    min-height: 200px;
+
+
+
+}
+
+form * {
+    margin: 1%;
+    
+
+}
+
+form label {
+    margin-top: 2%;
+    display: inline-block;
+    width: 30%;
+    margin-left: 4%;
+    text-align: left;
+    color: #8F7F75;
+    font-size: 165%;
+    vertical-align: middle;
+}
+
+form input {
+    width: 55%;
+    height: 47px;
+    margin-top: 2%;
+    padding-left: 1%;
+    display: inline-block;
+
+    color: #8F7F75;
+    border: dashed 4.5px #8F7F75;
+
+    font-size: 135%;
+    font-weight: bold;
+
+    vertical-align: none;
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media ( max-width: 550px) {
+
+    h1 {
+        margin: 3%;
+        margin-top: 80px;
+        font-size: 300%;
+        color: #807A74;
+        
+    }
+    
+    
+    
+    #contentContainer1 {
+        display: block;
+        min-height: 200px;
+        padding: 3.5%;
+    
+    }
+    
+    #contentContainer1 h2{
+        display: inline-block;
+        height: auto;
+    
+        font-weight: 500;
+        line-height: 150%;
+        font-size: 205%;
+        font-style: italic;
+        width: 80%;
+       
+        vertical-align:none;
+        color: #8F7F75;
+    
+    }
+    
+    
+    #contentContainer1 img {
+        display: inline-block;
+        margin-top: 10%;
+        margin-left: 6%;
+        vertical-align: none;
+        max-width: 80%;
+    
+    }
+    
+    
+    
+    
+    
+    
+    
+    .contactForm {
+        display: inline-block;
+        width: 80%;
+        margin-top: 11.5%;
+        vertical-align: none;
+    }
+    
+    .contactForm h2 {
+        margin-left: 15%;
+    }
+    
+    form{
+        margin-top: 3%;
+        width: 100%;
+        min-height: 200px;
+    
+    
+    
+    }
+    
+    form * {
+        margin: 1%;
+        
+    
+    }
+    
+    form label {
+        margin-top: 10%;
+        display: inline-block;
+        width: 90%;
+        margin-left: 4%;
+        text-align: left;
+        color: #8F7F75;
+        font-size: 165%;
+        vertical-align: middle;
+    }
+    
+    form input {
+        width: 90%;
+        height: 47px;
+        margin-top: 2%;
+        padding-left: 1%;
+        display: inline-block;
+    
+        color: #8F7F75;
+        border: dashed 4.5px #8F7F75;
+    
+        font-size: 135%;
+        font-weight: bold;
+    
+        vertical-align: middle;
+        
+        
+    }
+    
+}
+
+
+@media ( min-width: 551px ) and ( max-width: 1000px ) {
+
+    h1 {
+        margin: 3%;
+        margin-top: 80px;
+        font-size: 300%;
+        color: #807A74;
+        
+    }
+    
+    
+    
+    #contentContainer1 {
+        display: block;
+        min-height: 200px;
+        padding: 3.5%;
+    
+    }
+    
+    #contentContainer1 h2{
+        display: inline-block;
+        height: auto;
+    
+        font-weight: 500;
+        line-height: 150%;
+        font-size: 305%;
+        font-style: italic;
+        width: 80%;
+       
+        vertical-align:none;
+        color: #8F7F75;
+    
+    }
+    
+    
+    #contentContainer1 img {
+        display: inline-block;
+        margin-top: 10%;
+        margin-left: 6%;
+        vertical-align: none;
+        max-width: 80%;
+    
+    }
+    
+    
+    
+    
+    
+    
+    
+    .contactForm {
+        display: inline-block;
+        width: 80%;
+        margin-top: 11.5%;
+        vertical-align: none;
+    }
+    
+    .contactForm h2 {
+        margin-left: 15%;
+    }
+    
+    form{
+        margin-top: 3%;
+        width: 100%;
+        min-height: 200px;
+    
+    
+    
+    }
+    
+    form * {
+        margin: 1%;
+        
+    
+    }
+    
+    form label {
+        margin-top: 2%;
+        display: inline-block;
+        width: 30%;
+        margin-left: 4%;
+        text-align: left;
+        color: #8F7F75;
+        font-size: 165%;
+        vertical-align: middle;
+    }
+    
+    form input {
+        width: 55%;
+        height: 47px;
+        margin-top: 2%;
+        padding-left: 1%;
+        display: inline-block;
+    
+        color: #8F7F75;
+        border: dashed 4.5px #8F7F75;
+    
+        font-size: 135%;
+        font-weight: bold;
+    
+        vertical-align: middle;
+        
+        
+    }
+
+
+}

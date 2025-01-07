@@ -1,0 +1,36 @@
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>File Input Example</title>
+</head>
+<body>
+
+<input type="file" id="fileInput">
+<button onclick="readImage()">Read Image</button>
+
+<script>
+function readImage() {
+    const fileInput = document.getElementById('fileInput');
+    
+    // Stelle sicher, dass eine Datei ausgewählt wurde
+    if (fileInput.files.length > 0) {
+        const file = fileInput.files[0];
+        const reader = new FileReader();
+        
+        // Lese die Datei als Daten-URL (Base64-codiertes Bild) ein
+        reader.readAsDataURL(file);
+        
+        // Funktion wird aufgerufen, wenn das Lesen abgeschlossen ist
+        reader.onload = function(e) {
+            const imageDataUrl = e.target.result;
+            console.log('Bild-Daten-URL:', imageDataUrl);
+        };
+    } else {
+        console.error('Es wurde keine Datei ausgewählt.');
+    }
+}
+</script>
+
+</body>
+</html>

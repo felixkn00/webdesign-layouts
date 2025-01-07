@@ -1,0 +1,98 @@
+h1 {
+    margin: 3%;
+    margin-top: 80px;
+    font-size: 300%;
+    color: #807A74;
+    
+}
+
+
+.anmeldeinfo{
+    display: inline-block;
+    width: 27%;
+
+    vertical-align: middle;
+}
+
+.anmeldeinfo b {
+    color: #70625A;
+}
+
+.anmeldeinfo i {
+
+    color: #8F7F75;
+}
+
+
+.contactForm {
+    display: inline-block;
+    width: 60%;
+    margin-top: 15%;
+
+    vertical-align: middle;
+}
+
+.contactForm h3 {
+    font-size: 155%;
+    color:#8F7F75;
+}
+
+.contactForm label {
+    width: 40%;
+}
+
+.contactForm input {
+    width: 40%;
+}
+
+
+
+
+
+.preisliste {
+    margin-top: 8%;
+    color:#70625A;
+}
+
+.preisliste li:first-of-type {
+    margin-top: 1.5%;
+}
+
+.preisliste li {
+    margin-top: 1%;
+  font-size: 130%;
+}
+
+
+
+
+
+
+
+
+
+@media ( max-width: 550px) {
+
+    h1 {
+        margin-top: 5%;
+    }
+
+
+
+    
+
+}
+
+
+@media ( min-width: 551px ) and ( max-width: 1000px ) {
+
+   
+
+    h1 {
+        margin-top: 5%;
+    }
+
+
+
+
+}

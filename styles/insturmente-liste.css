@@ -1,0 +1,151 @@
+h1 {
+    margin: 3%;
+    margin-top: 80px;
+    font-size: 280%;
+    color: #807A74;
+    
+}
+
+
+
+h2 {
+    margin-top: 5%;
+    font-size: 260%;
+    color: #8F7F75;
+}
+
+
+
+.contenContainer {
+    margin-top: 10%;
+    width: 80%;
+    padding: 5%;
+    background: #FFF8EB;
+    
+}
+
+.contenContainer img {
+    width: 50%;
+    vertical-align: middle;
+}
+
+.contenContainer a {
+    display: inline-block;
+    width: 45%;
+    text-align: center;
+
+    font-size: 255%;
+    font-weight: bold;
+    color: #8F7F75;
+
+    vertical-align: middle;
+}
+
+
+
+
+
+
+
+
+
+@media ( max-width: 550px) {
+
+    h1 {
+        margin: 3%;
+        margin-top: 80px;
+        font-size: 280%;
+        color: #807A74;
+        
+    }
+    
+    
+    
+    h2 {
+        margin-top: 5%;
+        margin-left: 5%;
+        font-size: 260%;
+        color: #8F7F75;
+    }
+    
+    
+    
+    .contenContainer {
+        margin-top: 10%;
+        width: 85%;
+        padding: 5%;
+        background: #FFF8EB;
+        
+    }
+    
+    .contenContainer img {
+        width: 100%;
+        vertical-align: none;
+    }
+    
+    .contenContainer a {
+        display: inline-block;
+        width: 100%;
+        margin-top: 10%;
+        text-align: center;
+    
+        font-size: 255%;
+        font-weight: bold;
+        color: #8F7F75;
+    
+        vertical-align: none;
+    }
+    
+}
+
+
+@media ( min-width: 551px ) and ( max-width: 1000px ) {
+
+    h1 {
+
+        margin: 3%;
+        margin-top: 80px;
+        font-size: 280%;
+        color: #807A74;
+        
+    }
+    
+    
+    
+    h2 {
+        margin-top: 5%;
+        margin-left: 6%;
+        font-size: 260%;
+        color: #8F7F75;
+    }
+    
+    
+    
+    .contenContainer {
+        margin-top: 10%;
+        width: 80%;
+        padding: 5%;
+        background: #FFF8EB;
+        
+    }
+    
+    .contenContainer img {
+        width: 60%;
+        vertical-align: middle;
+    }
+    
+    .contenContainer a {
+        display: inline-block;
+        margin-left: 2.5%;
+        width: 35%;
+        text-align: center;
+    
+        font-size: 255%;
+        font-weight: bold;
+        color: #8F7F75;
+    
+        vertical-align: middle;
+    }
+
+
+}

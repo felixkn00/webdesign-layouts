@@ -1,0 +1,135 @@
+.contentContainer {
+    width: 60%;
+    margin: auto;
+    padding: 2%;
+    border: 2px solid #cac2ba;
+    border-radius: 15px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}    
+
+h1 {
+    color: #807A74;
+    margin: auto;
+    text-align: center;
+}
+
+
+.navigation {
+    position: relative;
+    width: 100%;
+    max-width: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 75px auto 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: underline;
+    font-size: 155%;
+}
+
+.navigation a {
+    font-size: 155%;
+    text-decoration: none;
+    color: #807A74;
+}
+
+
+.subheader {
+    color: #807A74;
+    font-size: 265%;
+    color: #807A74;
+}
+
+
+.post-card{
+    padding: 10px;
+    margin: 50px;
+    width: 60%;
+    height: auto;
+    border: 3px solid #cfc8bf;
+    border-radius: 11.5px;
+    
+}
+
+.post-card h2{
+    margin: 5px;
+    padding: 5px;
+    font-size: 165%;
+    color: #807A74;
+}
+
+.post-card p{
+    color: #807A74;
+    font-size: 120%;
+}
+
+.post-card input[type="submit"]{
+    background-color: white;
+    color: #807A74;
+    font-size: 130%;
+    border: solid 2.5px #cbbdae;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 5px;
+}
+
+
+form input[type="text"]{
+    background-color: white;
+    color: #807A74;
+    font-size: 130%;
+    border: solid 2.5px #cbbdae;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 5px;
+}
+
+form input[type="checkbox"]{
+    background-color: white;
+    color: #807A74;
+    font-size: 130%;
+    border: solid 2.5px #cbbdae;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 5px;
+}
+
+form input[type="submit"]{
+    background-color: white;
+    color: #807A74;
+    font-size: 130%;
+    border: solid 2.5px #cbbdae;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 5px;
+}
+
+form label {
+    color: #807A74;
+    font-size: 130%;
+    margin: 5px;
+}
+
+form textarea{
+    background-color: white;
+    color: #807A74;
+    font-size: 130%;
+    border: solid 2.5px #cbbdae;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 5px;
+}
+
+.update h3{
+    color: #807A74;
+    font-size: 180%;
+    margin: 15px;
+}
+
+.update p{
+    color: #807A74;
+    font-size: 130%;
+    margin: 15px;
+}

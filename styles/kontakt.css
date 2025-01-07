@@ -1,0 +1,328 @@
+h1 {
+    margin: 3%;
+    margin-top: 80px;
+    font-size: 300%;
+    color: #807A74;
+    
+}
+
+
+
+
+#contentContainer1 {
+    display: block;
+    min-height: 200px;
+    padding: 3.5%;
+
+}
+
+#contentContainer1 h2{
+    display: inline-block;
+
+    height: 200px;
+    font-weight: 500;
+    font-size: 345%;
+    font-style: italic;
+    width: 40%;
+   
+    vertical-align: baseline;
+    color: #8F7F75;
+
+}
+
+
+#contentContainer1 img {
+
+    display: inline-block;
+    margin-left: 6%;
+    vertical-align: middle;
+    max-width: 50%;
+
+}
+
+
+
+address {
+    float: right;
+    margin: 2.5%;
+    margin-right: 15.5%;
+
+    font-size: 220%;
+    font-weight: bold;
+    color: #858585;
+}
+
+
+
+#textblock1 {
+    margin-top: 16%;
+    clear: both;
+    color: #858585;
+    font-size: 220%;
+}
+
+
+
+#maps {
+    margin-top: 15%;
+    width: 100%;
+}
+
+
+
+#textblock2 {
+    margin: 5%;
+    margin-top: 20%;
+
+    clear: both;
+    color: #807A74;
+    font-size: 330%;
+}
+
+
+
+
+
+#ohterContactOptions {
+    margin-top: 8.5%;
+}
+
+#ohterContactOptions a{
+    display: block;
+    margin: 2%;
+    color:#807A74;
+    font-size:155%;
+    
+ 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media ( max-width: 550px) {
+
+    h1 {
+        margin: 3%;
+        margin-top: 40px;
+        font-size: 300%;
+        color: #807A74;
+        
+    }
+    
+    
+    
+    #contentContainer1 {
+        display: block;
+        min-height: auto;
+        padding: 3.5%;
+    
+    }
+    
+    #contentContainer1 h2{
+        display: inline-block;
+        margin-top: 10%;
+        height: auto;
+        font-weight: 500;
+        font-size: 245%;
+        font-style: italic;
+        width: 70%;
+       
+        vertical-align: baseline;
+        color: #8F7F75;
+    
+    }
+    
+    
+    #contentContainer1 img {
+    
+        display: inline-block;
+        margin-left: 5%;
+        margin-top: 5%;
+        vertical-align: middle;
+        max-width: 90%;
+    
+    }
+    
+    
+    
+    address {
+        float: right;
+        margin: 2.5%;
+        margin-right: 15.5%;
+    
+        font-size: 220%;
+        font-weight: bold;
+        color: #858585;
+    }
+    
+    
+    
+    #textblock1 {
+        margin-top: 26%;
+        margin-left: 5%;
+        clear: both;
+        color: #858585;
+        font-size: 220%;
+    }
+    
+    
+    
+    #maps {
+        margin-top: 15%;
+        width: 100%;
+    }
+    
+    
+    
+    #textblock2 {
+        margin: 5%;
+        margin-top: 20%;
+        clear: both;
+        color: #807A74;
+        font-size: 330%;
+    }
+    
+    
+    
+    
+    
+    #ohterContactOptions {
+        margin-top: 18.5%;
+    }
+    
+    #ohterContactOptions a{
+        display: block;
+        margin-left: 10.5%;
+        margin-top: 6.5%;
+        color:#807A74;
+        font-size:155%;
+        
+     
+    }
+
+
+
+    
+
+}
+
+
+@media ( min-width: 551px ) and ( max-width: 1000px ) {
+
+   
+
+    h1 {
+        margin: 3%;
+        margin-top: 80px;
+        font-size: 300%;
+        color: #807A74;
+        
+    }
+    
+    
+    
+    #contentContainer1 {
+        display: block;
+        min-height: 200px;
+        padding: 3.5%;
+    
+    }
+    
+    #contentContainer1 h2{
+        display: inline-block;
+    
+        height: auto;
+        font-weight: 500;
+        font-size: 345%;
+        font-style: italic;
+        width: 90%;
+       
+        vertical-align: none;
+        color: #8F7F75;
+    
+    }
+    
+    
+    #contentContainer1 img {
+    
+        display: inline-block;
+        margin-left: 0%;
+        vertical-align: none;
+        max-width: 100%;
+        width: 100%;
+        margin-left: 0%;
+    
+    }
+    
+    
+    
+    address {
+        float: right;
+        margin: 2.5%;
+        margin-right: 15.5%;
+    
+        font-size: 220%;
+        font-weight: bold;
+        color: #858585;
+    }
+    
+    
+    
+    #textblock1 {
+        margin-top: 26%;
+        margin-left: 6.5%;
+        clear: both;
+        color: #858585;
+        font-size: 220%;
+        width: 80%;
+   
+    }
+    
+    
+    
+    #maps {
+        margin-top: 15%;
+        width: 100%;
+    }
+    
+    
+    
+    #textblock2 {
+        margin: 5%;
+        margin-top: 20%;
+        clear: both;
+        color: #807A74;
+        font-size: 330%;
+    }
+    
+    
+    
+    
+    
+    #ohterContactOptions {
+        margin-top: 18.5%;
+        margin-left: 5%;
+    }
+    
+    #ohterContactOptions a{
+        display: block;
+        margin: 2%;
+        margin-top: 3%;
+        color:#807A74;
+        font-size:155%;
+        
+     
+    }
+
+
+
+}

@@ -1,0 +1,243 @@
+h1 {
+    margin: 3%;
+    margin-top: 80px;
+    font-size: 280%;
+    color: #807A74;
+    
+}
+
+
+
+#contentContainer {
+    margin-top: 10%;
+}
+
+#contentContainer * {
+    color: #8F7F75;
+}
+
+#contentContainer p:first-of-type {
+    font-size: 265%;
+    font-style: italic;
+
+}
+
+#contentContainer div {
+    display: inline-block;
+    margin-top: 5%;
+    width: 40%;
+}
+
+#contentContainer div:first-of-type {
+    margin-right: 19.5%;
+}
+
+#contentContainer div h2 {
+    font-size: 255%;
+    text-align: center;
+
+}
+
+#contentContainer div img {
+    width: 100%;
+    margin-top: 10%;
+}
+
+#contentContainer div a {
+    display: inline-block;
+    width: 80%;
+    margin-top: 6.5%;
+    margin-left: 4%;
+    padding: 5%;
+
+    color: #D5BDAF;
+    font-size: 205%;
+    text-align: center;
+    border: solid 4px #D5BDAF;
+
+}
+
+
+#contentContainer p:nth-of-type(2) {
+    margin-top: 17%;
+    margin-left: 11%;
+    font-size: 205%;
+    font-style: italic;
+}
+
+#contentContainer p:nth-of-type(3) {
+    margin-top: 6.5%;
+    margin-left: 17%;
+    font-size: 205%;
+    font-style: italic;
+}
+
+
+
+
+@media ( max-width: 550px) {
+
+    h1 {
+        margin: 3%;
+        margin-top: 80px;
+        font-size: 265%;
+        color: #807A74;
+        
+    }
+    
+    
+    
+    #contentContainer {
+        margin-top: 10%;
+    }
+    
+    #contentContainer * {
+        color: #8F7F75;
+    }
+    
+    #contentContainer p:first-of-type {
+        margin-left: 7.5%;
+        font-size: 265%;
+        font-style: italic;
+    
+    }
+    
+    #contentContainer div {
+        display: inline-block;
+        margin-top: 25%;
+        width: 100%;
+    }
+    
+    #contentContainer div:first-of-type {
+        margin-right: 0%;
+    }
+    
+    #contentContainer div h2 {
+        font-size: 255%;
+        text-align: center;
+    
+    }
+    
+    #contentContainer div img {
+        width: 100%;
+        margin-top: 10%;
+    }
+    
+    #contentContainer div a {
+        display: inline-block;
+        width: 80%;
+        margin-top: 6.5%;
+        margin-left: 4%;
+        padding: 5%;
+    
+        color: #D5BDAF;
+        font-size: 205%;
+        text-align: center;
+        border: solid 4px #D5BDAF;
+    
+    }
+    
+    
+    #contentContainer p:nth-of-type(2) {
+        margin-top: 17%;
+        margin-left: 6.6%;
+        font-size: 205%;
+        font-style: italic;
+    }
+    
+    #contentContainer p:nth-of-type(3) {
+        margin-top: 11.5%;
+        margin-left: 7%;
+        font-size: 205%;
+        font-style: italic;
+        color:#7c6f67;
+    }
+    
+}
+
+
+@media ( min-width: 551px ) and ( max-width: 1000px ) {
+
+    h1 {
+        margin: 3%;
+        margin-top: 80px;
+        font-size: 280%;
+        color: #807A74;
+        
+    }
+    
+    
+    
+    #contentContainer {
+        margin-top: 10%;
+        width: 90%;
+        margin-left: 5%;;
+    }
+    
+    #contentContainer * {
+        color: #8F7F75;
+    }
+    
+    #contentContainer p:first-of-type {
+        font-size: 265%;
+        font-style: italic;
+    
+    }
+    
+    #contentContainer div {
+        display: inline-block;
+        margin-top: 5%;
+        width: 40%;
+
+        margin-left: 5%;
+
+    }
+    
+    #contentContainer div:first-of-type {
+        margin-right: 0%;
+    }
+    
+    #contentContainer div h2 {
+        font-size: 255%;
+        text-align: center;
+    
+    }
+    
+    #contentContainer div img {
+        width: 100%;
+        margin-top: 10%;
+    }
+    
+    #contentContainer div a {
+        display: inline-block;
+        min-width: 80%;
+        width: auto;
+        margin-top: 6.5%;
+        margin-left: 0%;
+        padding: 5%;
+    
+        color: #D5BDAF;
+        font-size: 155%;
+        text-align: center;
+        border: solid 4px #D5BDAF;
+    
+    }
+    
+    
+    #contentContainer p:nth-of-type(2) {
+        margin-top: 17%;
+        margin-left: 11%;
+        font-size: 205%;
+        font-style: italic;
+    }
+    
+    #contentContainer p:nth-of-type(3) {
+        margin-top: 6.5%;
+        margin-left: 17%;
+        font-size: 205%;
+        font-style: italic;
+    }
+
+
+
+}
